@@ -1,0 +1,45 @@
+{
+  "id": "clacks/access_control/object_level/mass_assignment",
+  "slug": "clacks/access_control/object_level/mass_assignment",
+  "title": "Mass Assignment",
+  "aliases": [
+    "mass assignment",
+    "mass_assignment",
+    "autobinding",
+    "auto-binding",
+    "object injection",
+    "parameter binding"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/broken_access_control.mass_assignment",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A01",
+        "confidence": "medium",
+        "note": "Maps to Broken Access Control when exploited to modify privilege-related or otherwise protected fields; not all mass assignment results in access control bypass"
+      },
+      {
+        "id": "owasp/top10/2021/A04",
+        "confidence": "low",
+        "note": "Competing interpretation: root cause is an insecure design pattern (unrestricted model binding). Preserving as alternative, not consensus."
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-915",
+        "confidence": "high",
+        "note": "Direct and specific: Improperly Controlled Modification of Dynamically-Determined Object Attributes"
+      },
+      {
+        "id": "cwe/CWE-284",
+        "confidence": "low",
+        "note": "Umbrella mapping only; prefer CWE-915 where supported"
+      }
+    ]
+  }
+}
