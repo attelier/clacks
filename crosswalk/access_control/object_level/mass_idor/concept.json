@@ -1,0 +1,43 @@
+{
+  "id": "clacks/access_control/object_level/mass_idor",
+  "slug": "clacks/access_control/object_level/mass_idor",
+  "title": "Mass IDOR",
+  "aliases": [
+    "mass idor",
+    "idor enumeration",
+    "object id enumeration",
+    "bulk idor",
+    "idor data harvesting",
+    "wildcard idor"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-639",
+        "confidence": "high"
+      },
+      {
+        "id": "cwe/CWE-284",
+        "confidence": "medium"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A01",
+        "confidence": "high"
+      }
+    ],
+    "owasp_api10": [
+      {
+        "id": "owasp/api/2023/API01",
+        "confidence": "high"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/broken_access_control.insecure_direct_object_references",
+        "confidence": "high"
+      }
+    ]
+  }
+}
