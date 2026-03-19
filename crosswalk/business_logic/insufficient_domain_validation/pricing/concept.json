@@ -1,0 +1,40 @@
+{
+  "id": "clacks/business_logic/insufficient_domain_validation/pricing",
+  "slug": "clacks/business_logic/insufficient_domain_validation/pricing",
+  "title": "Pricing / Quotation Validation",
+  "aliases": [
+    "pricing validation",
+    "quotation validation",
+    "price calculation",
+    "price manipulation",
+    "quote manipulation",
+    "pricing logic"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-20",
+        "confidence": "high",
+        "note": "Improper Input Validation in pricing-sensitive parameters"
+      },
+      {
+        "id": "cwe/CWE-840",
+        "confidence": "high",
+        "note": "Business Logic Errors in pricing engine"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A04",
+        "confidence": "high"
+      }
+    ],
+    "owasp_api10": [
+      {
+        "id": "owasp/api/2023/API06",
+        "confidence": "medium",
+        "note": "Unrestricted Access to Sensitive Business Flows: pricing is a sensitive flow"
+      }
+    ]
+  }
+}
