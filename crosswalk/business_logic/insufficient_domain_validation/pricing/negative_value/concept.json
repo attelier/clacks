@@ -1,0 +1,58 @@
+{
+  "id": "clacks/business_logic/insufficient_domain_validation/pricing/negative_value",
+  "slug": "clacks/business_logic/insufficient_domain_validation/pricing/negative_value",
+  "title": "Negative Value Accepted in Pricing Parameter",
+  "aliases": [
+    "negative value",
+    "negative distance",
+    "negative parameter",
+    "negative price input",
+    "negative number accepted",
+    "negative quantity"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-20",
+        "confidence": "high",
+        "note": "Improper Input Validation: server accepts domain-impossible value without rejection or normalization"
+      },
+      {
+        "id": "cwe/CWE-1284",
+        "confidence": "high",
+        "note": "Improper Validation of Specified Quantity in Input: negative distance is outside any valid domain range"
+      },
+      {
+        "id": "cwe/CWE-840",
+        "confidence": "medium",
+        "note": "Business Logic Errors: the pricing engine computes a result for an impossible real-world input"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A04",
+        "confidence": "high",
+        "note": "Insecure Design: missing domain constraint on a business-critical parameter"
+      }
+    ],
+    "owasp_api10": [
+      {
+        "id": "owasp/api/2023/API08",
+        "confidence": "medium",
+        "note": "Security Misconfiguration: API accepts out-of-range values without schema or domain enforcement"
+      },
+      {
+        "id": "owasp/api/2023/API06",
+        "confidence": "medium",
+        "note": "Unrestricted Access to Sensitive Business Flows: unauthenticated quotation endpoint with no input guardrails"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_security_misconfiguration",
+        "confidence": "low",
+        "note": "No direct VRT node for domain validation gaps; closest umbrella is server misconfiguration"
+      }
+    ]
+  }
+}
