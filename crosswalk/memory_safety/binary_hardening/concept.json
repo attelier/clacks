@@ -1,0 +1,31 @@
+{
+  "id": "clacks/memory_safety/binary_hardening",
+  "slug": "clacks/memory_safety/binary_hardening",
+  "title": "Binary Hardening",
+  "aliases": [
+    "binary hardening",
+    "binary_hardening",
+    "missing binary hardening",
+    "lack of binary hardening"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-693",
+        "confidence": "high",
+        "note": "Defensive measure absence rather than direct vulnerability"
+      },
+      {
+        "id": "cwe/CWE-119",
+        "confidence": "medium",
+        "note": "Umbrella for memory issues that hardening mitigates"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ]
+  }
+}

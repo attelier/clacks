@@ -1,0 +1,43 @@
+{
+  "id": "clacks/injection/server_side/deserialization",
+  "slug": "clacks/injection/server_side/deserialization",
+  "title": "Insecure Deserialization",
+  "aliases": [
+    "insecure deserialization",
+    "deserialization",
+    "object injection",
+    "pickle injection",
+    "java deserialization",
+    "php object injection",
+    "yaml deserialization"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-502",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A08",
+        "confidence": "high",
+        "note": "OWASP 2021 has dedicated category A08 for software/data integrity"
+      }
+    ],
+    "mitre_attack": [
+      {
+        "id": "mitre/T1059",
+        "confidence": "medium",
+        "note": "Code execution via deserialized payload"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_side_injection.deserialization",
+        "confidence": "medium",
+        "note": "Bugcrowd VRT path may vary"
+      }
+    ]
+  }
+}

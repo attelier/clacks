@@ -1,0 +1,26 @@
+{
+  "id": "clacks/business_logic/external_behavior",
+  "slug": "clacks/business_logic/external_behavior",
+  "title": "External Behavior",
+  "aliases": [
+    "external behavior",
+    "external_behavior",
+    "browser behavior"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-451",
+        "confidence": "medium",
+        "note": "Umbrella mapping; User Interface (UI) Misrepresentation of Critical Information"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A04",
+        "confidence": "medium",
+        "note": "Insecure Design — vulnerabilities from external/browser behavior"
+      }
+    ]
+  }
+}

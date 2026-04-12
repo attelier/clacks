@@ -1,0 +1,30 @@
+{
+  "id": "clacks/security_misconfiguration/weakness_in_firmware_updates",
+  "slug": "clacks/security_misconfiguration/weakness_in_firmware_updates",
+  "title": "Weakness in Firmware Updates",
+  "aliases": [
+    "weakness in firmware updates",
+    "weakness_in_firmware_updates",
+    "insecure firmware update"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/indicators_of_compromise.weakness_in_firmware_updates",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A08",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-494",
+        "confidence": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "clacks/session_management/csrf/action_specific",
+  "slug": "clacks/session_management/csrf/action_specific",
+  "title": "Action-Specific CSRF",
+  "aliases": [
+    "action-specific CSRF",
+    "action_specific"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-352",
+        "confidence": "high",
+        "note": "Umbrella for action-specific CSRF variants (login, logout, password change, etc.)"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A01",
+        "confidence": "high"
+      }
+    ]
+  }
+}

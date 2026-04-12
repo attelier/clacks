@@ -1,0 +1,34 @@
+{
+  "id": "clacks/security_misconfiguration/weak_two_fa_implementation",
+  "slug": "clacks/security_misconfiguration/weak_two_fa_implementation",
+  "title": "Weak Two-Factor Authentication Implementation",
+  "aliases": [
+    "weak two-factor authentication implementation",
+    "weak 2fa implementation",
+    "weak_two_fa_implementation"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/indicators_of_compromise.weak_two_fa_implementation",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A07",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-308",
+        "confidence": "medium"
+      },
+      {
+        "id": "cwe/CWE-287",
+        "confidence": "high"
+      }
+    ]
+  }
+}

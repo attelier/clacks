@@ -1,0 +1,29 @@
+{
+  "id": "clacks/injection/server_side/exposed_data",
+  "slug": "clacks/injection/server_side/exposed_data",
+  "title": "Exposed Data via Injection",
+  "aliases": [
+    "exposed data",
+    "data exposure",
+    "error-based data leak"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-200",
+        "confidence": "high"
+      },
+      {
+        "id": "cwe/CWE-209",
+        "confidence": "high",
+        "note": "Data exposure as consequence of injection"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ]
+  }
+}

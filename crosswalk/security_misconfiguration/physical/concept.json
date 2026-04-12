@@ -1,0 +1,24 @@
+{
+  "id": "clacks/security_misconfiguration/physical",
+  "slug": "clacks/security_misconfiguration/physical",
+  "title": "Physical Security",
+  "aliases": [
+    "physical security",
+    "physical_security"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/physical_security_issues",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-693",
+        "confidence": "low",
+        "note": "Umbrella; physical attacks have limited CWE coverage"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "clacks/injection/server_side/deserialization/java",
+  "slug": "clacks/injection/server_side/deserialization/java",
+  "title": "Java Deserialization",
+  "aliases": [
+    "java deserialization",
+    "objectinputstream",
+    "commons collections gadget",
+    "ysoserial"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-502",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A08",
+        "confidence": "high"
+      }
+    ]
+  }
+}

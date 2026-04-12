@@ -1,0 +1,25 @@
+{
+  "id": "clacks/injection/client_side/xss/off_domain",
+  "slug": "clacks/injection/client_side/xss/off_domain",
+  "title": "XSS Off-Domain",
+  "aliases": [
+    "off-domain xss",
+    "sandboxed xss",
+    "off domain xss"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-79",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high",
+        "note": "Lower impact if isolated from main domain"
+      }
+    ]
+  }
+}

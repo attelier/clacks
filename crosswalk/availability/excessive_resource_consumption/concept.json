@@ -1,0 +1,35 @@
+{
+  "id": "clacks/availability/excessive_resource_consumption",
+  "slug": "clacks/availability/excessive_resource_consumption",
+  "title": "Excessive Resource Consumption",
+  "aliases": [
+    "excessive resource consumption",
+    "resource exhaustion",
+    "cpu exhaustion",
+    "memory exhaustion",
+    "bandwidth exhaustion"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-400",
+        "confidence": "high",
+        "note": "Uncontrolled Resource Consumption"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "medium",
+        "note": "Security Misconfiguration — resource limits not enforced"
+      }
+    ],
+    "mitre_attack": [
+      {
+        "id": "mitre/T1499",
+        "confidence": "high",
+        "note": "Endpoint Denial of Service"
+      }
+    ]
+  }
+}

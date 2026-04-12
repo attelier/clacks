@@ -1,0 +1,29 @@
+{
+  "id": "clacks/injection/server_side/content_spoofing",
+  "slug": "clacks/injection/server_side/content_spoofing",
+  "title": "Content Spoofing",
+  "aliases": [
+    "content spoofing",
+    "content injection",
+    "html injection"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-451",
+        "confidence": "high"
+      },
+      {
+        "id": "cwe/CWE-74",
+        "confidence": "medium",
+        "note": "Broad injection parent; CWE-451 is more specific"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ]
+  }
+}

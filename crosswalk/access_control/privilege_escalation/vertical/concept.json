@@ -1,0 +1,37 @@
+{
+  "id": "clacks/access_control/privilege_escalation/vertical",
+  "slug": "clacks/access_control/privilege_escalation/vertical",
+  "title": "Vertical Privilege Escalation",
+  "aliases": [
+    "vertical privilege escalation",
+    "vertical privesc",
+    "privilege elevation",
+    "admin access",
+    "role escalation"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-269",
+        "confidence": "high"
+      },
+      {
+        "id": "cwe/CWE-285",
+        "confidence": "medium",
+        "note": "Authorization failure enabling privilege escalation"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A01",
+        "confidence": "high"
+      }
+    ],
+    "mitre_attack": [
+      {
+        "id": "mitre/T1068",
+        "confidence": "high"
+      }
+    ]
+  }
+}

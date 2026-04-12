@@ -1,0 +1,55 @@
+{
+  "id": "clacks/access_control/bypass_of_password_confirmation",
+  "slug": "clacks/access_control/bypass_of_password_confirmation",
+  "title": "Bypass of Password Confirmation",
+  "aliases": [
+    "password confirmation bypass",
+    "password re-authentication bypass",
+    "step-up auth bypass",
+    "sensitive action confirmation bypass"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-287",
+        "confidence": "medium",
+        "note": "Improper Authentication — the password confirmation step is an authentication check; bypassing it is an authentication failure within an access-control context"
+      },
+      {
+        "id": "cwe/CWE-302",
+        "confidence": "high",
+        "note": "Authentication Bypass by Assumed-Immutable Data — directly covers bypassing a re-authentication gate"
+      },
+      {
+        "id": "cwe/CWE-284",
+        "confidence": "medium",
+        "note": "Improper Access Control — umbrella; the confirmation step is an access-control enforcement point"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A01",
+        "confidence": "high"
+      },
+      {
+        "id": "owasp/top10/2021/A07",
+        "confidence": "medium",
+        "note": "Identification and Authentication Failures — relevant because the bypassed step is an authentication gate"
+      }
+    ],
+    "owasp_api10": [
+      {
+        "id": "owasp/api/2023/API02",
+        "confidence": "high",
+        "note": "Broken Authentication — password confirmation is a re-authentication mechanism"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/broken_access_control",
+        "confidence": "medium",
+        "note": "No specific VRT leaf for password confirmation bypass; maps to the broken access control parent"
+      }
+    ]
+  }
+}

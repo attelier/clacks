@@ -1,0 +1,31 @@
+{
+  "id": "clacks/security_misconfiguration/automotive",
+  "slug": "clacks/security_misconfiguration/automotive",
+  "title": "Automotive Security Misconfiguration",
+  "aliases": [
+    "automotive security misconfiguration",
+    "automotive_security_misconfiguration"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/automotive_security_misconfiguration",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "medium",
+        "note": "Umbrella for automotive-specific security issues"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-1059",
+        "confidence": "medium",
+        "note": "Umbrella for automotive-specific security issues"
+      }
+    ]
+  }
+}

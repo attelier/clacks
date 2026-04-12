@@ -1,0 +1,25 @@
+{
+  "id": "clacks/injection/server_side/deserialization/php",
+  "slug": "clacks/injection/server_side/deserialization/php",
+  "title": "PHP Object Injection",
+  "aliases": [
+    "php object injection",
+    "php deserialization",
+    "unserialize vulnerability",
+    "php magic methods"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-502",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A08",
+        "confidence": "high"
+      }
+    ]
+  }
+}

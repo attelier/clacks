@@ -1,0 +1,27 @@
+{
+  "id": "clacks/injection/server_side/log_injection",
+  "slug": "clacks/injection/server_side/log_injection",
+  "title": "Log Injection",
+  "aliases": [
+    "log injection",
+    "log forging",
+    "log_injection",
+    "crlf log injection",
+    "log poisoning"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-117",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A09",
+        "confidence": "high",
+        "note": "Directly impacts logging and monitoring integrity"
+      }
+    ]
+  }
+}

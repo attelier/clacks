@@ -1,0 +1,38 @@
+{
+  "id": "clacks/injection/server_side/ssti",
+  "slug": "clacks/injection/server_side/ssti",
+  "title": "Server-Side Template Injection",
+  "aliases": [
+    "server-side template injection",
+    "ssti",
+    "template injection"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-1336",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_side_injection.template_injection",
+        "confidence": "medium",
+        "note": "Bugcrowd VRT path may vary by taxonomy version"
+      }
+    ],
+    "mitre_attack": [
+      {
+        "id": "mitre/T1221",
+        "confidence": "medium",
+        "note": "Template injection for execution; medium confidence as ATT&CK focuses on document templates"
+      }
+    ]
+  }
+}

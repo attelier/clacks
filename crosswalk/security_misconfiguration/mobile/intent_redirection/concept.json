@@ -1,0 +1,31 @@
+{
+  "id": "clacks/security_misconfiguration/mobile/intent_redirection",
+  "slug": "clacks/security_misconfiguration/mobile/intent_redirection",
+  "title": "Intent Redirection",
+  "aliases": [
+    "intent redirection",
+    "intent_redirection",
+    "unsafe intent forwarding",
+    "intent hijacking android",
+    "pending intent vulnerability"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-925",
+        "confidence": "high"
+      },
+      {
+        "id": "cwe/CWE-927",
+        "confidence": "medium",
+        "note": "Related — implicit intents enable redirection"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A07",
+        "confidence": "medium"
+      }
+    ]
+  }
+}

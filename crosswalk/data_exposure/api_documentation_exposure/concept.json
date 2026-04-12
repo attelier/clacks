@@ -1,0 +1,28 @@
+{
+  "id": "clacks/data_exposure/api_documentation_exposure",
+  "slug": "clacks/data_exposure/api_documentation_exposure",
+  "title": "API Documentation Exposure",
+  "aliases": [
+    "api documentation exposure",
+    "swagger exposure",
+    "openapi exposure",
+    "api docs leak",
+    "swagger ui exposed",
+    "api specification exposure"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-200",
+        "confidence": "medium",
+        "note": "Umbrella; API docs may reveal internal endpoints and parameters"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ]
+  }
+}

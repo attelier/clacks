@@ -1,0 +1,24 @@
+{
+  "id": "clacks/security_misconfiguration/physical/weakness_in_physical_access_control",
+  "slug": "clacks/security_misconfiguration/physical/weakness_in_physical_access_control",
+  "title": "Weakness in Physical Access Control",
+  "aliases": [
+    "weakness in physical access control",
+    "weakness_in_physical_access_control"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/physical_security_issues.weakness_in_physical_access_control",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-693",
+        "confidence": "low",
+        "note": "Physical security; no specific CWE"
+      }
+    ]
+  }
+}

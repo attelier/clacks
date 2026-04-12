@@ -1,0 +1,34 @@
+{
+  "id": "clacks/data_exposure/version_control_exposure",
+  "slug": "clacks/data_exposure/version_control_exposure",
+  "title": "Version Control Exposure",
+  "aliases": [
+    "version control exposure",
+    "git exposure",
+    ".git exposure",
+    ".svn exposure",
+    "git directory listing",
+    "source control leak"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-538",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "mitre_attack": [
+      {
+        "id": "mitre/attack/T1213",
+        "confidence": "medium",
+        "note": "Data from information repositories"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "clacks/injection/client_side/xss/dom_based",
+  "slug": "clacks/injection/client_side/xss/dom_based",
+  "title": "DOM-Based XSS",
+  "aliases": [
+    "dom based xss",
+    "dom xss",
+    "dom-based cross-site scripting",
+    "client-side xss",
+    "type 0 xss"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-79",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/cross_site_scripting_xss.dom_based",
+        "confidence": "high"
+      }
+    ]
+  }
+}

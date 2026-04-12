@@ -1,0 +1,25 @@
+{
+  "id": "clacks/cryptography/insufficient_entropy",
+  "slug": "clacks/cryptography/insufficient_entropy",
+  "title": "Insufficient Entropy",
+  "aliases": [
+    "insufficient entropy",
+    "insufficient_entropy",
+    "insufficient randomness",
+    "weak randomness"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-331",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A02",
+        "confidence": "high"
+      }
+    ]
+  }
+}

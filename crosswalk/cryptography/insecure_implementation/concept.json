@@ -1,0 +1,32 @@
+{
+  "id": "clacks/cryptography/insecure_implementation",
+  "slug": "clacks/cryptography/insecure_implementation",
+  "title": "Insecure Cryptographic Implementation",
+  "aliases": [
+    "insecure implementation",
+    "insecure_implementation",
+    "flawed cryptographic implementation",
+    "ECB mode",
+    "missing IV",
+    "static salt"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-329",
+        "confidence": "high"
+      },
+      {
+        "id": "cwe/CWE-327",
+        "confidence": "medium",
+        "note": "Umbrella mapping; CWE-329 is more specific for IV issues"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A02",
+        "confidence": "high"
+      }
+    ]
+  }
+}

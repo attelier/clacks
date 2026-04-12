@@ -1,0 +1,28 @@
+{
+  "id": "clacks/security_misconfiguration/mobile/deep_link_hijacking",
+  "slug": "clacks/security_misconfiguration/mobile/deep_link_hijacking",
+  "title": "Deep Link Hijacking",
+  "aliases": [
+    "deep link hijacking",
+    "deep_link_hijacking",
+    "app link hijacking",
+    "intent hijacking",
+    "url scheme hijacking",
+    "custom url scheme abuse"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-939",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A07",
+        "confidence": "medium",
+        "note": "Authentication/authorization boundary failure on mobile"
+      }
+    ]
+  }
+}

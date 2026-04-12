@@ -1,0 +1,34 @@
+{
+  "id": "clacks/business_logic/ai_security/insufficient_rate_limiting",
+  "slug": "clacks/business_logic/ai_security/insufficient_rate_limiting",
+  "title": "Insufficient Rate Limiting",
+  "aliases": [
+    "insufficient rate limiting",
+    "insufficient_rate_limiting",
+    "missing rate limit",
+    "ai rate limiting"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-770",
+        "confidence": "high",
+        "note": "Allocation of Resources Without Limits or Throttling"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A04",
+        "confidence": "medium",
+        "note": "Insecure Design — rate limiting is a design concern"
+      }
+    ],
+    "owasp_api10": [
+      {
+        "id": "owasp/api/2023/API04",
+        "confidence": "high",
+        "note": "Unrestricted Resource Consumption"
+      }
+    ]
+  }
+}

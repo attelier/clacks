@@ -1,0 +1,26 @@
+{
+  "id": "clacks/injection/client_side/xss/mutation",
+  "slug": "clacks/injection/client_side/xss/mutation",
+  "title": "Mutation XSS",
+  "aliases": [
+    "mutation xss",
+    "mxss",
+    "parser mutation xss",
+    "html sanitizer bypass xss",
+    "inner html mutation"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-79",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ]
+  }
+}

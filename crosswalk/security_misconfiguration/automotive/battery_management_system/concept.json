@@ -1,0 +1,25 @@
+{
+  "id": "clacks/security_misconfiguration/automotive/battery_management_system",
+  "slug": "clacks/security_misconfiguration/automotive/battery_management_system",
+  "title": "Battery Management System",
+  "aliases": [
+    "battery management system",
+    "battery_management_system",
+    "bms"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/automotive_security_misconfiguration.battery_management_system",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-693",
+        "confidence": "low",
+        "note": "Emerging automotive IoT area"
+      }
+    ]
+  }
+}

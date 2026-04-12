@@ -1,0 +1,34 @@
+{
+  "id": "clacks/authentication/failure_to_invalidate_session",
+  "slug": "clacks/authentication/failure_to_invalidate_session",
+  "title": "Failure to Invalidate Session",
+  "aliases": [
+    "failure to invalidate session",
+    "failure_to_invalidate_session"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/broken_authentication_and_session_management.failure_to_invalidate_session",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-613",
+        "confidence": "high"
+      },
+      {
+        "id": "cwe/CWE-384",
+        "confidence": "medium",
+        "note": "Session fixation is related but not identical; included because failure to invalidate can enable fixation attacks"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A07",
+        "confidence": "high"
+      }
+    ]
+  }
+}

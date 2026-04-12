@@ -1,0 +1,26 @@
+{
+  "id": "clacks/injection/server_side/nosql_injection",
+  "slug": "clacks/injection/server_side/nosql_injection",
+  "title": "NoSQL Injection",
+  "aliases": [
+    "nosql injection",
+    "nosql_injection",
+    "mongodb injection",
+    "nosqli",
+    "operator injection"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-943",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ]
+  }
+}

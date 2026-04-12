@@ -1,0 +1,25 @@
+{
+  "id": "clacks/data_exposure/weak_password_reset_implementation",
+  "slug": "clacks/data_exposure/weak_password_reset_implementation",
+  "title": "Weak Password Reset Implementation",
+  "aliases": [
+    "weak password reset implementation",
+    "weak_password_reset_implementation",
+    "predictable password reset token",
+    "insecure password recovery"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-640",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A07",
+        "confidence": "high"
+      }
+    ]
+  }
+}

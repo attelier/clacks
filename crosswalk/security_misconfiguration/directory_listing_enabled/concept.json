@@ -1,0 +1,24 @@
+{
+  "id": "clacks/security_misconfiguration/directory_listing_enabled",
+  "slug": "clacks/security_misconfiguration/directory_listing_enabled",
+  "title": "Directory Listing Enabled",
+  "aliases": [
+    "directory listing enabled",
+    "directory indexing enabled",
+    "directory browsing"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-548",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ]
+  }
+}

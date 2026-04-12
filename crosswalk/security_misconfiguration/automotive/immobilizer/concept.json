@@ -1,0 +1,25 @@
+{
+  "id": "clacks/security_misconfiguration/automotive/immobilizer",
+  "slug": "clacks/security_misconfiguration/automotive/immobilizer",
+  "title": "Vehicle Immobilizer",
+  "aliases": [
+    "vehicle immobilizer",
+    "immobilizer",
+    "immobiliser"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/automotive_security_misconfiguration.immobilizer",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-287",
+        "confidence": "medium",
+        "note": "Physical + RF attack surface"
+      }
+    ]
+  }
+}

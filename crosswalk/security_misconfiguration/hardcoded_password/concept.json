@@ -1,0 +1,24 @@
+{
+  "id": "clacks/security_misconfiguration/hardcoded_password",
+  "slug": "clacks/security_misconfiguration/hardcoded_password",
+  "title": "Hardcoded Password",
+  "aliases": [
+    "hardcoded password",
+    "hard-coded credentials",
+    "hardcoded credentials"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-798",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A07",
+        "confidence": "high"
+      }
+    ]
+  }
+}

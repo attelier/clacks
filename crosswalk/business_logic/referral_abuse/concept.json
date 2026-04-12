@@ -1,0 +1,27 @@
+{
+  "id": "clacks/business_logic/referral_abuse",
+  "slug": "clacks/business_logic/referral_abuse",
+  "title": "Referral Abuse",
+  "aliases": [
+    "referral abuse",
+    "referral_abuse",
+    "referral system abuse",
+    "invite abuse",
+    "referral fraud"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-799",
+        "confidence": "medium",
+        "note": "Closest CWE; referral abuse is business logic specific"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A04",
+        "confidence": "high"
+      }
+    ]
+  }
+}

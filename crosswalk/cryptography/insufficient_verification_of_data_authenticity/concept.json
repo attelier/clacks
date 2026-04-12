@@ -1,0 +1,26 @@
+{
+  "id": "clacks/cryptography/insufficient_verification_of_data_authenticity",
+  "slug": "clacks/cryptography/insufficient_verification_of_data_authenticity",
+  "title": "Insufficient Verification of Data Authenticity",
+  "aliases": [
+    "insufficient verification of data authenticity",
+    "insufficient_verification_of_data_authenticity",
+    "missing HMAC",
+    "missing signature verification",
+    "weak data integrity check"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-345",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A02",
+        "confidence": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "clacks/data_exposure/environment_variable_leakage",
+  "slug": "clacks/data_exposure/environment_variable_leakage",
+  "title": "Environment Variable Leakage",
+  "aliases": [
+    "environment variable leakage",
+    "env file exposure",
+    ".env exposure",
+    "dotenv leak",
+    "phpinfo exposure",
+    "environment_variable_leakage"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-526",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ]
+  }
+}

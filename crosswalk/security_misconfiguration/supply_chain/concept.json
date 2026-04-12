@@ -1,0 +1,29 @@
+{
+  "id": "clacks/security_misconfiguration/supply_chain",
+  "slug": "clacks/security_misconfiguration/supply_chain",
+  "title": "Supply Chain Security",
+  "aliases": [
+    "supply chain security",
+    "supply_chain"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/using_components_with_known_vulnerabilities",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A08",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-1357",
+        "confidence": "high"
+      }
+    ]
+  }
+}

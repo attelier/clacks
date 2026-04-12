@@ -1,0 +1,31 @@
+{
+  "id": "clacks/security_misconfiguration/open_redirect",
+  "slug": "clacks/security_misconfiguration/open_redirect",
+  "title": "Open Redirect",
+  "aliases": [
+    "open redirect",
+    "url redirection",
+    "unvalidated redirect"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-601",
+        "confidence": "high",
+        "note": "Umbrella for redirect variants"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A01",
+        "confidence": "high"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/unvalidated_redirects_and_forwards",
+        "confidence": "high"
+      }
+    ]
+  }
+}

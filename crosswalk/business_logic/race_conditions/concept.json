@@ -1,0 +1,27 @@
+{
+  "id": "clacks/business_logic/race_conditions",
+  "slug": "clacks/business_logic/race_conditions",
+  "title": "Race Conditions",
+  "aliases": [
+    "race condition",
+    "race conditions",
+    "concurrency issue",
+    "TOCTOU"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-362",
+        "confidence": "high",
+        "note": "Concurrent Execution using Shared Resource with Improper Synchronization"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A04",
+        "confidence": "medium",
+        "note": "Insecure Design — race conditions are design-level flaws"
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "clacks/authentication/brute_force/credential_stuffing",
+  "slug": "clacks/authentication/brute_force/credential_stuffing",
+  "title": "Credential Stuffing",
+  "aliases": [
+    "credential stuffing",
+    "credential_stuffing",
+    "password reuse attack",
+    "credential reuse"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-307",
+        "confidence": "high"
+      },
+      {
+        "id": "cwe/CWE-521",
+        "confidence": "medium",
+        "note": "Weak password policy enables credential reuse"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A07",
+        "confidence": "high"
+      }
+    ],
+    "mitre_attack": [
+      {
+        "id": "mitre/T1110.004",
+        "confidence": "high"
+      }
+    ]
+  }
+}

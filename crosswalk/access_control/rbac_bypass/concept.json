@@ -1,0 +1,31 @@
+{
+  "id": "clacks/access_control/rbac_bypass",
+  "slug": "clacks/access_control/rbac_bypass",
+  "title": "Role-Based Access Control Bypass",
+  "aliases": [
+    "rbac bypass",
+    "role based access control bypass",
+    "rbac_bypass",
+    "role bypass",
+    "permission bypass"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-285",
+        "confidence": "high"
+      },
+      {
+        "id": "cwe/CWE-269",
+        "confidence": "medium",
+        "note": "Related — RBAC bypass often involves privilege boundary failure"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A01",
+        "confidence": "high"
+      }
+    ]
+  }
+}

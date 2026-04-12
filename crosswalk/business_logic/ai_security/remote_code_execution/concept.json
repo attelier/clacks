@@ -1,0 +1,27 @@
+{
+  "id": "clacks/business_logic/ai_security/remote_code_execution",
+  "slug": "clacks/business_logic/ai_security/remote_code_execution",
+  "title": "AI Remote Code Execution",
+  "aliases": [
+    "ai remote code execution",
+    "ai rce",
+    "model deserialization rce",
+    "pickle deserialization"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-502",
+        "confidence": "high",
+        "note": "Deserialization of Untrusted Data"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A08",
+        "confidence": "high",
+        "note": "Software and Data Integrity Failures — untrusted model deserialization"
+      }
+    ]
+  }
+}

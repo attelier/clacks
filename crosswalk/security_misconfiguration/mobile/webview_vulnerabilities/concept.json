@@ -1,0 +1,31 @@
+{
+  "id": "clacks/security_misconfiguration/mobile/webview_vulnerabilities",
+  "slug": "clacks/security_misconfiguration/mobile/webview_vulnerabilities",
+  "title": "WebView Vulnerabilities",
+  "aliases": [
+    "webview vulnerabilities",
+    "webview_vulnerabilities",
+    "javascript bridge vulnerability",
+    "webview file access",
+    "addjavascriptinterface"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-749",
+        "confidence": "high"
+      },
+      {
+        "id": "cwe/CWE-200",
+        "confidence": "medium",
+        "note": "WebView can leak data via JavaScript bridge"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ]
+  }
+}

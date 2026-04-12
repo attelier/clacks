@@ -1,0 +1,27 @@
+{
+  "id": "clacks/business_logic/ai_security/ai_safety",
+  "slug": "clacks/business_logic/ai_security/ai_safety",
+  "title": "AI Safety",
+  "aliases": [
+    "ai safety",
+    "ai_safety",
+    "AI alignment",
+    "harmful outputs"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-693",
+        "confidence": "low",
+        "note": "Protection Mechanism Failure — best-effort; no dedicated CWE for AI safety"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A04",
+        "confidence": "medium",
+        "note": "Insecure Design — safety guardrails are a design concern"
+      }
+    ]
+  }
+}

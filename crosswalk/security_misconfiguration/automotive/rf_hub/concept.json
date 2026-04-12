@@ -1,0 +1,30 @@
+{
+  "id": "clacks/security_misconfiguration/automotive/rf_hub",
+  "slug": "clacks/security_misconfiguration/automotive/rf_hub",
+  "title": "RF Hub / Keyless Entry",
+  "aliases": [
+    "rf hub / keyless entry",
+    "rf_hub",
+    "keyless entry"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/automotive_security_misconfiguration.rf_hub",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-287",
+        "confidence": "medium",
+        "note": "Relay and replay attacks on RF communication"
+      },
+      {
+        "id": "cwe/CWE-345",
+        "confidence": "medium",
+        "note": "Relay and replay attacks on RF communication"
+      }
+    ]
+  }
+}

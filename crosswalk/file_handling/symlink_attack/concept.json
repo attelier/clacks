@@ -1,0 +1,27 @@
+{
+  "id": "clacks/file_handling/symlink_attack",
+  "slug": "clacks/file_handling/symlink_attack",
+  "title": "Symlink Attack",
+  "aliases": [
+    "symlink attack",
+    "symbolic link attack",
+    "symlink_attack",
+    "symlink race",
+    "toctou symlink"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-59",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A01",
+        "confidence": "medium",
+        "note": "Access control failure via filesystem symlink"
+      }
+    ]
+  }
+}

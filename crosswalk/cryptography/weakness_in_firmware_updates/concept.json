@@ -1,0 +1,26 @@
+{
+  "id": "clacks/cryptography/weakness_in_firmware_updates",
+  "slug": "clacks/cryptography/weakness_in_firmware_updates",
+  "title": "Weakness in Firmware Updates",
+  "aliases": [
+    "weakness in firmware updates",
+    "weakness_in_firmware_updates",
+    "insecure firmware update",
+    "unsigned firmware",
+    "unencrypted firmware update"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-494",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A08",
+        "confidence": "high"
+      }
+    ]
+  }
+}

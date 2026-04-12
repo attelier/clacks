@@ -1,0 +1,31 @@
+{
+  "id": "clacks/authentication/jwt_vulnerabilities/algorithm_confusion",
+  "slug": "clacks/authentication/jwt_vulnerabilities/algorithm_confusion",
+  "title": "JWT Algorithm Confusion",
+  "aliases": [
+    "jwt algorithm confusion",
+    "jwt key confusion",
+    "jwt rs256 hs256",
+    "jwt alg confusion",
+    "jwt algorithm switching"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-345",
+        "confidence": "high"
+      },
+      {
+        "id": "cwe/CWE-327",
+        "confidence": "medium",
+        "note": "Algorithm confusion exploits lack of algorithm enforcement"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A07",
+        "confidence": "high"
+      }
+    ]
+  }
+}

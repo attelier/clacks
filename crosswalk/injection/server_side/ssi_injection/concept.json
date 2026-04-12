@@ -1,0 +1,25 @@
+{
+  "id": "clacks/injection/server_side/ssi_injection",
+  "slug": "clacks/injection/server_side/ssi_injection",
+  "title": "Server-Side Includes Injection",
+  "aliases": [
+    "ssi injection",
+    "server side includes injection",
+    "ssi_injection",
+    "server-side includes"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-97",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ]
+  }
+}

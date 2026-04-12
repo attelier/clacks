@@ -1,0 +1,24 @@
+{
+  "id": "clacks/security_misconfiguration/lack_of_password_confirmation",
+  "slug": "clacks/security_misconfiguration/lack_of_password_confirmation",
+  "title": "Lack of Password Confirmation",
+  "aliases": [
+    "lack of password confirmation",
+    "missing password confirmation",
+    "unverified password change"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-620",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A07",
+        "confidence": "high"
+      }
+    ]
+  }
+}

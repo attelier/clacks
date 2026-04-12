@@ -1,0 +1,25 @@
+{
+  "id": "clacks/cryptography/insecure_key_generation",
+  "slug": "clacks/cryptography/insecure_key_generation",
+  "title": "Insecure Key Generation",
+  "aliases": [
+    "insecure key generation",
+    "insecure_key_generation",
+    "weak key generation",
+    "predictable key generation"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-326",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A02",
+        "confidence": "high"
+      }
+    ]
+  }
+}

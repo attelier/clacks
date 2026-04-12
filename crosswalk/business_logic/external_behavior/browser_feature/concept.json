@@ -1,0 +1,27 @@
+{
+  "id": "clacks/business_logic/external_behavior/browser_feature",
+  "slug": "clacks/business_logic/external_behavior/browser_feature",
+  "title": "Browser Feature Abuse",
+  "aliases": [
+    "browser feature",
+    "browser feature abuse",
+    "autofill abuse",
+    "browser caching abuse"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-451",
+        "confidence": "medium",
+        "note": "User Interface (UI) Misrepresentation of Critical Information"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A04",
+        "confidence": "medium",
+        "note": "Insecure Design — browser feature misuse"
+      }
+    ]
+  }
+}

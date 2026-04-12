@@ -1,0 +1,29 @@
+{
+  "id": "clacks/security_misconfiguration/cloud/storage_misconfigurations",
+  "slug": "clacks/security_misconfiguration/cloud/storage_misconfigurations",
+  "title": "Storage Misconfigurations",
+  "aliases": [
+    "storage misconfigurations",
+    "storage_misconfigurations"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/cloud_security.storage_misconfigurations",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A01",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-732",
+        "confidence": "high"
+      }
+    ]
+  }
+}

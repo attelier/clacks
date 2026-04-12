@@ -1,0 +1,31 @@
+{
+  "id": "clacks/availability/algorithmic_complexity_dos",
+  "slug": "clacks/availability/algorithmic_complexity_dos",
+  "title": "Algorithmic Complexity Denial of Service",
+  "aliases": [
+    "algorithmic complexity dos",
+    "hash collision dos",
+    "hashdos",
+    "complexity attack",
+    "algorithmic dos"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-407",
+        "confidence": "high"
+      },
+      {
+        "id": "cwe/CWE-400",
+        "confidence": "medium",
+        "note": "General resource consumption umbrella"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ]
+  }
+}

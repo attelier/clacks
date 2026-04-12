@@ -1,0 +1,30 @@
+{
+  "id": "clacks/security_misconfiguration/automotive/rsu",
+  "slug": "clacks/security_misconfiguration/automotive/rsu",
+  "title": "Roadside Unit (V2X)",
+  "aliases": [
+    "roadside unit",
+    "rsu",
+    "v2x"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/automotive_security_misconfiguration.rsu",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-345",
+        "confidence": "low",
+        "note": "V2X infrastructure component"
+      },
+      {
+        "id": "cwe/CWE-693",
+        "confidence": "low",
+        "note": "V2X infrastructure component"
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "clacks/business_logic/account_takeover",
+  "slug": "clacks/business_logic/account_takeover",
+  "title": "Account Takeover",
+  "aliases": [
+    "account takeover",
+    "account_takeover",
+    "ato",
+    "account compromise",
+    "account hijacking"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-284",
+        "confidence": "medium",
+        "note": "Umbrella; ATO is typically a chain of multiple weaknesses"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A07",
+        "confidence": "high"
+      }
+    ],
+    "mitre_attack": [
+      {
+        "id": "mitre/T1078",
+        "confidence": "high",
+        "note": "Valid Accounts"
+      }
+    ]
+  }
+}

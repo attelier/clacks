@@ -1,0 +1,33 @@
+{
+  "id": "clacks/injection/server_side/code_injection",
+  "slug": "clacks/injection/server_side/code_injection",
+  "title": "Code Injection",
+  "aliases": [
+    "code injection",
+    "code_injection",
+    "eval injection",
+    "server side code injection",
+    "remote code injection"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-94",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ],
+    "mitre_attack": [
+      {
+        "id": "mitre/T1059",
+        "confidence": "medium",
+        "note": "Command and scripting interpreter"
+      }
+    ]
+  }
+}

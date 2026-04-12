@@ -1,0 +1,26 @@
+{
+  "id": "clacks/security_misconfiguration/mail_server_misconfiguration",
+  "slug": "clacks/security_misconfiguration/mail_server_misconfiguration",
+  "title": "Mail Server Misconfiguration",
+  "aliases": [
+    "mail server misconfiguration",
+    "email server misconfiguration",
+    "missing spf dkim dmarc",
+    "open relay"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "medium",
+        "note": "Umbrella mapping; CWE-16 covers general configuration issues"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ]
+  }
+}

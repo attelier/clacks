@@ -1,0 +1,28 @@
+{
+  "id": "clacks/security_misconfiguration/supply_chain/vulnerable_dependency",
+  "slug": "clacks/security_misconfiguration/supply_chain/vulnerable_dependency",
+  "title": "Vulnerable Dependency",
+  "aliases": [
+    "vulnerable dependency",
+    "vulnerable_dependency",
+    "known vulnerability",
+    "outdated dependency",
+    "vulnerable component",
+    "cve in dependency"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-1035",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A06",
+        "confidence": "high",
+        "note": "OWASP 2021 A06 is specifically about vulnerable and outdated components"
+      }
+    ]
+  }
+}

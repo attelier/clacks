@@ -1,0 +1,26 @@
+{
+  "id": "clacks/injection/server_side/graphql_injection",
+  "slug": "clacks/injection/server_side/graphql_injection",
+  "title": "GraphQL Injection",
+  "aliases": [
+    "graphql injection",
+    "graphql query injection",
+    "graphql_injection",
+    "gql injection"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-74",
+        "confidence": "medium",
+        "note": "No dedicated CWE for GraphQL injection; CWE-74 is umbrella"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ]
+  }
+}

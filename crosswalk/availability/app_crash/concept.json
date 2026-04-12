@@ -1,0 +1,32 @@
+{
+  "id": "clacks/availability/app_crash",
+  "slug": "clacks/availability/app_crash",
+  "title": "Application Crash",
+  "aliases": [
+    "app crash",
+    "application crash",
+    "unhandled exception",
+    "denial of service via crash"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-248",
+        "confidence": "high",
+        "note": "Uncaught Exception"
+      },
+      {
+        "id": "cwe/CWE-754",
+        "confidence": "high",
+        "note": "Improper Check for Unusual or Exceptional Conditions"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "medium",
+        "note": "Security Misconfiguration — crashes from unhandled errors"
+      }
+    ]
+  }
+}

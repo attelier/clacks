@@ -1,0 +1,31 @@
+{
+  "id": "clacks/file_handling/svg_upload_xss",
+  "slug": "clacks/file_handling/svg_upload_xss",
+  "title": "SVG Upload XSS",
+  "aliases": [
+    "svg upload xss",
+    "svg_upload_xss",
+    "svg xss",
+    "svg injection",
+    "malicious svg upload"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-79",
+        "confidence": "high"
+      },
+      {
+        "id": "cwe/CWE-434",
+        "confidence": "medium",
+        "note": "Unrestricted file upload enables SVG with script"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ]
+  }
+}

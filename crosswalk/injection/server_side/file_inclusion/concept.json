@@ -1,0 +1,38 @@
+{
+  "id": "clacks/injection/server_side/file_inclusion",
+  "slug": "clacks/injection/server_side/file_inclusion",
+  "title": "File Inclusion",
+  "aliases": [
+    "file inclusion",
+    "local file inclusion",
+    "remote file inclusion",
+    "lfi",
+    "rfi"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-98",
+        "confidence": "high"
+      },
+      {
+        "id": "cwe/CWE-22",
+        "confidence": "medium",
+        "note": "Path traversal often co-occurs with file inclusion"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ],
+    "mitre_attack": [
+      {
+        "id": "mitre/T1505",
+        "confidence": "medium",
+        "note": "Server software component exploitation; medium confidence"
+      }
+    ]
+  }
+}

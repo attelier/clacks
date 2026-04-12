@@ -1,0 +1,25 @@
+{
+  "id": "clacks/data_exposure/via_localstorage_sessionstorage",
+  "slug": "clacks/data_exposure/via_localstorage_sessionstorage",
+  "title": "Data Exposure via localStorage/sessionStorage",
+  "aliases": [
+    "data exposure via localStorage/sessionStorage",
+    "via_localstorage_sessionstorage",
+    "sensitive data in localStorage",
+    "sensitive data in sessionStorage"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-922",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A04",
+        "confidence": "high"
+      }
+    ]
+  }
+}

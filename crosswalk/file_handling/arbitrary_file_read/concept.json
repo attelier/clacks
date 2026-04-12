@@ -1,0 +1,39 @@
+{
+  "id": "clacks/file_handling/arbitrary_file_read",
+  "slug": "clacks/file_handling/arbitrary_file_read",
+  "title": "Arbitrary File Read",
+  "aliases": [
+    "arbitrary file read",
+    "arbitrary_file_read",
+    "local file read",
+    "file disclosure",
+    "path traversal read",
+    "lfi read"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-22",
+        "confidence": "high"
+      },
+      {
+        "id": "cwe/CWE-36",
+        "confidence": "medium",
+        "note": "Variant; applies when absolute paths are controllable"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A01",
+        "confidence": "high"
+      }
+    ],
+    "mitre_attack": [
+      {
+        "id": "mitre/T1005",
+        "confidence": "medium",
+        "note": "Data from local system"
+      }
+    ]
+  }
+}

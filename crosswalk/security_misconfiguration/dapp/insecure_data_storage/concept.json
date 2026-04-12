@@ -1,0 +1,30 @@
+{
+  "id": "clacks/security_misconfiguration/dapp/insecure_data_storage",
+  "slug": "clacks/security_misconfiguration/dapp/insecure_data_storage",
+  "title": "Insecure Data Storage",
+  "aliases": [
+    "insecure data storage",
+    "insecure_data_storage"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/decentralized_application_misconfiguration.insecure_data_storage",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A02",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-922",
+        "confidence": "high",
+        "note": "Blockchain transparency means all on-chain data is public"
+      }
+    ]
+  }
+}

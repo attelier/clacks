@@ -1,0 +1,31 @@
+{
+  "id": "clacks/injection/server_side/email_injection",
+  "slug": "clacks/injection/server_side/email_injection",
+  "title": "Email Header Injection",
+  "aliases": [
+    "email injection",
+    "email_injection",
+    "email header injection",
+    "smtp injection",
+    "mail header injection"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-93",
+        "confidence": "medium",
+        "note": "CWE-93 covers CRLF in headers generally; email header injection is a specific case"
+      },
+      {
+        "id": "cwe/CWE-74",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ]
+  }
+}

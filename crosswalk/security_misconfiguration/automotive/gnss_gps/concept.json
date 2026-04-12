@@ -1,0 +1,25 @@
+{
+  "id": "clacks/security_misconfiguration/automotive/gnss_gps",
+  "slug": "clacks/security_misconfiguration/automotive/gnss_gps",
+  "title": "GNSS/GPS Spoofing and Jamming",
+  "aliases": [
+    "gnss/gps spoofing and jamming",
+    "gnss_gps",
+    "gps spoofing"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/automotive_security_misconfiguration.gnss_gps",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-345",
+        "confidence": "high",
+        "note": "Signal-level attack"
+      }
+    ]
+  }
+}

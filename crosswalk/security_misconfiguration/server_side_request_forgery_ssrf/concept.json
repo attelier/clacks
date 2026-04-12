@@ -1,0 +1,32 @@
+{
+  "id": "clacks/security_misconfiguration/server_side_request_forgery_ssrf",
+  "slug": "clacks/security_misconfiguration/server_side_request_forgery_ssrf",
+  "title": "Server-Side Request Forgery (SSRF)",
+  "aliases": [
+    "ssrf",
+    "server side request forgery",
+    "server-side request forgery"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-918",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A10",
+        "confidence": "high",
+        "note": "OWASP 2021 has dedicated SSRF category A10"
+      }
+    ],
+    "mitre_attack": [
+      {
+        "id": "mitre/T1190",
+        "confidence": "medium",
+        "note": "Exploit Public-Facing Application; SSRF is one specific technique"
+      }
+    ]
+  }
+}

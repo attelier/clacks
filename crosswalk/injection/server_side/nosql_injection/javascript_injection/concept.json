@@ -1,0 +1,30 @@
+{
+  "id": "clacks/injection/server_side/nosql_injection/javascript_injection",
+  "slug": "clacks/injection/server_side/nosql_injection/javascript_injection",
+  "title": "NoSQL JavaScript Injection",
+  "aliases": [
+    "nosql javascript injection",
+    "server side js injection",
+    "$where injection",
+    "mapreduce injection"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-943",
+        "confidence": "high"
+      },
+      {
+        "id": "cwe/CWE-94",
+        "confidence": "medium",
+        "note": "Server-side JS execution via NoSQL eval context"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "clacks/security_misconfiguration/cloud/misconfigured_services_and_apis",
+  "slug": "clacks/security_misconfiguration/cloud/misconfigured_services_and_apis",
+  "title": "Misconfigured Services and APIs",
+  "aliases": [
+    "misconfigured services and apis",
+    "misconfigured_services_and_apis"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/cloud_security.misconfigured_services_and_apis",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "owasp_api10": [
+      {
+        "id": "owasp/api/2023/API08",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "high"
+      }
+    ]
+  }
+}

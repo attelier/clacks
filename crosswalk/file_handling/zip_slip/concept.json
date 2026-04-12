@@ -1,0 +1,28 @@
+{
+  "id": "clacks/file_handling/zip_slip",
+  "slug": "clacks/file_handling/zip_slip",
+  "title": "Zip Slip",
+  "aliases": [
+    "zip slip",
+    "zip_slip",
+    "archive extraction vulnerability",
+    "tar slip",
+    "path traversal archive",
+    "zipslip"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-22",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A08",
+        "confidence": "high",
+        "note": "Software and data integrity failures — untrusted archive content"
+      }
+    ]
+  }
+}

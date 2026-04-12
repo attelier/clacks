@@ -1,0 +1,27 @@
+{
+  "id": "clacks/data_exposure/exif_geolocation_data_not_stripped_from_uploaded_images",
+  "slug": "clacks/data_exposure/exif_geolocation_data_not_stripped_from_uploaded_images",
+  "title": "EXIF Geolocation Data Not Stripped from Uploaded Images",
+  "aliases": [
+    "EXIF geolocation data not stripped from uploaded images",
+    "exif_geolocation_data_not_stripped_from_uploaded_images",
+    "EXIF metadata leakage",
+    "image metadata not stripped"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-200",
+        "confidence": "medium",
+        "note": "General information exposure; no CWE specific to EXIF leakage"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A04",
+        "confidence": "high",
+        "note": "Insecure Design — failure to strip metadata is a design-level issue"
+      }
+    ]
+  }
+}

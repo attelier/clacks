@@ -1,0 +1,31 @@
+{
+  "id": "clacks/business_logic/ai_security/sensitive_information_disclosure",
+  "slug": "clacks/business_logic/ai_security/sensitive_information_disclosure",
+  "title": "AI Sensitive Information Disclosure",
+  "aliases": [
+    "ai sensitive information disclosure",
+    "training data leakage",
+    "model information leakage"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-200",
+        "confidence": "high",
+        "note": "Exposure of Sensitive Information to an Unauthorized Actor"
+      },
+      {
+        "id": "cwe/CWE-212",
+        "confidence": "medium",
+        "note": "Improper Removal of Sensitive Information Before Storage or Transfer"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A01",
+        "confidence": "medium",
+        "note": "Broken Access Control — sensitive data exposed via model outputs"
+      }
+    ]
+  }
+}

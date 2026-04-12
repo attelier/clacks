@@ -1,0 +1,34 @@
+{
+  "id": "clacks/injection/client_side/binary_planting",
+  "slug": "clacks/injection/client_side/binary_planting",
+  "title": "Binary Planting",
+  "aliases": [
+    "binary planting",
+    "dll hijacking",
+    "dll search order hijacking"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-427",
+        "confidence": "high"
+      },
+      {
+        "id": "cwe/CWE-426",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A08",
+        "confidence": "high"
+      }
+    ],
+    "mitre_attack": [
+      {
+        "id": "mitre/T1574.001",
+        "confidence": "high"
+      }
+    ]
+  }
+}

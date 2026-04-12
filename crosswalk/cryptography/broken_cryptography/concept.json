@@ -1,0 +1,31 @@
+{
+  "id": "clacks/cryptography/broken_cryptography",
+  "slug": "clacks/cryptography/broken_cryptography",
+  "title": "Broken Cryptography",
+  "aliases": [
+    "broken cryptography",
+    "broken_cryptography",
+    "use of broken crypto algorithm",
+    "deprecated cryptographic algorithm"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-327",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A02",
+        "confidence": "high"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/cryptographic_weakness.broken_cryptography",
+        "confidence": "high"
+      }
+    ]
+  }
+}

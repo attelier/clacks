@@ -1,0 +1,27 @@
+{
+  "id": "clacks/data_exposure/privacy/unnecessary_data_collection",
+  "slug": "clacks/data_exposure/privacy/unnecessary_data_collection",
+  "title": "Unnecessary Data Collection",
+  "aliases": [
+    "unnecessary data collection",
+    "unnecessary_data_collection",
+    "excessive data collection",
+    "data minimization violation"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-359",
+        "confidence": "medium",
+        "note": "Privacy-by-design violation; CWE-359 is the closest match"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A04",
+        "confidence": "high",
+        "note": "Insecure Design — collecting more data than necessary is a design flaw"
+      }
+    ]
+  }
+}

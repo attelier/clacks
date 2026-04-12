@@ -1,0 +1,26 @@
+{
+  "id": "clacks/business_logic/ai_security/prompt_injection",
+  "slug": "clacks/business_logic/ai_security/prompt_injection",
+  "title": "Prompt Injection",
+  "aliases": [
+    "prompt injection",
+    "prompt_injection",
+    "LLM injection"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-74",
+        "confidence": "medium",
+        "note": "Injection (general); no dedicated CWE for prompt injection yet — best-effort mapping"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high",
+        "note": "Injection"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "clacks/security_misconfiguration/automotive/can",
+  "slug": "clacks/security_misconfiguration/automotive/can",
+  "title": "CAN Bus Security",
+  "aliases": [
+    "can bus security",
+    "can_bus_security",
+    "controller area network"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/automotive_security_misconfiguration.can",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-319",
+        "confidence": "high"
+      },
+      {
+        "id": "cwe/CWE-693",
+        "confidence": "high"
+      }
+    ],
+    "mitre_attack": [
+      {
+        "id": "mitre/attack/T1557",
+        "confidence": "medium",
+        "note": "Adversary-in-the-middle on CAN bus"
+      }
+    ]
+  }
+}

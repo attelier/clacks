@@ -1,0 +1,30 @@
+{
+  "id": "clacks/security_misconfiguration/oauth_misconfiguration",
+  "slug": "clacks/security_misconfiguration/oauth_misconfiguration",
+  "title": "OAuth Misconfiguration",
+  "aliases": [
+    "oauth misconfiguration",
+    "oauth implementation flaw",
+    "oauth2 misconfiguration"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-346",
+        "confidence": "medium",
+        "note": "Origin validation error; applies to OAuth callback redirect scenarios"
+      },
+      {
+        "id": "cwe/CWE-601",
+        "confidence": "medium",
+        "note": "Open redirect in OAuth callback flow"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A07",
+        "confidence": "high"
+      }
+    ]
+  }
+}

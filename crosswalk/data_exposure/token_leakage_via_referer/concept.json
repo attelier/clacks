@@ -1,0 +1,26 @@
+{
+  "id": "clacks/data_exposure/token_leakage_via_referer",
+  "slug": "clacks/data_exposure/token_leakage_via_referer",
+  "title": "Token Leakage via Referer",
+  "aliases": [
+    "token leakage via Referer",
+    "token_leakage_via_referer",
+    "Referer header token leakage",
+    "token in Referer header"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-200",
+        "confidence": "medium",
+        "note": "General information exposure; no CWE specific to Referer-based leakage"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A04",
+        "confidence": "high"
+      }
+    ]
+  }
+}

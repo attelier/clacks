@@ -1,0 +1,30 @@
+{
+  "id": "clacks/cryptography/weak_hash",
+  "slug": "clacks/cryptography/weak_hash",
+  "title": "Weak Hash",
+  "aliases": [
+    "weak hash",
+    "weak_hash",
+    "weak hash function",
+    "use of weak hash for passwords"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-328",
+        "confidence": "high"
+      },
+      {
+        "id": "cwe/CWE-916",
+        "confidence": "medium",
+        "note": "CWE-916 is specific to password hashing with insufficient computational effort"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A02",
+        "confidence": "high"
+      }
+    ]
+  }
+}

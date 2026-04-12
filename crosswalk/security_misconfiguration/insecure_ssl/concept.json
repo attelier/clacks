@@ -1,0 +1,29 @@
+{
+  "id": "clacks/security_misconfiguration/insecure_ssl",
+  "slug": "clacks/security_misconfiguration/insecure_ssl",
+  "title": "Insecure SSL/TLS Configuration",
+  "aliases": [
+    "insecure ssl",
+    "insecure tls",
+    "weak ssl configuration",
+    "weak cipher suites"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-326",
+        "confidence": "high"
+      },
+      {
+        "id": "cwe/CWE-295",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A02",
+        "confidence": "high"
+      }
+    ]
+  }
+}

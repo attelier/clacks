@@ -1,0 +1,25 @@
+{
+  "id": "clacks/security_misconfiguration/automotive/abs",
+  "slug": "clacks/security_misconfiguration/automotive/abs",
+  "title": "Anti-lock Braking System (ABS)",
+  "aliases": [
+    "anti-lock braking system",
+    "abs",
+    "anti_lock_braking_system"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/automotive_security_misconfiguration.abs",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-693",
+        "confidence": "low",
+        "note": "Safety-critical automotive component; no dedicated CWE"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "clacks/security_misconfiguration/executable_download",
+  "slug": "clacks/security_misconfiguration/executable_download",
+  "title": "Executable Download Without Integrity Check",
+  "aliases": [
+    "executable download",
+    "insecure executable download",
+    "download without integrity check"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-494",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A08",
+        "confidence": "high"
+      }
+    ]
+  }
+}

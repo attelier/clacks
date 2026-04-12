@@ -1,0 +1,27 @@
+{
+  "id": "clacks/business_logic/ai_security/denial_of_service_dos",
+  "slug": "clacks/business_logic/ai_security/denial_of_service_dos",
+  "title": "AI Denial of Service",
+  "aliases": [
+    "ai denial of service",
+    "ai dos",
+    "inference dos",
+    "model denial of service"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-400",
+        "confidence": "high",
+        "note": "Uncontrolled Resource Consumption"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "medium",
+        "note": "Security Misconfiguration — resource limits on AI inference"
+      }
+    ]
+  }
+}

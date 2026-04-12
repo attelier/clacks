@@ -1,0 +1,44 @@
+{
+  "id": "clacks/access_control/idor",
+  "slug": "clacks/access_control/idor",
+  "title": "Insecure Direct Object Reference (Generic)",
+  "aliases": [
+    "idor",
+    "insecure direct object reference",
+    "direct object reference",
+    "bola"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-639",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A01",
+        "confidence": "high"
+      }
+    ],
+    "owasp_api10": [
+      {
+        "id": "owasp/api/2023/API01",
+        "confidence": "high"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/broken_access_control.insecure_direct_object_references",
+        "confidence": "high"
+      }
+    ],
+    "mitre_attack": [
+      {
+        "id": "mitre/T1565.001",
+        "confidence": "medium",
+        "note": "Stored Data Manipulation — applies when IDOR is used to modify another user's data, not all IDOR variants"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "clacks/authentication/brute_force",
+  "slug": "clacks/authentication/brute_force",
+  "title": "Brute Force",
+  "aliases": [
+    "brute force",
+    "brute_force",
+    "password brute force",
+    "login brute force",
+    "online password attack"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-307",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A07",
+        "confidence": "high"
+      }
+    ],
+    "mitre_attack": [
+      {
+        "id": "mitre/T1110",
+        "confidence": "high"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/broken_authentication_and_session_management.brute_force",
+        "confidence": "high",
+        "note": "VRT path may not be exact; verify against current Bugcrowd taxonomy"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "clacks/business_logic/ai_security/improper_input_handling",
+  "slug": "clacks/business_logic/ai_security/improper_input_handling",
+  "title": "Improper Input Handling",
+  "aliases": [
+    "improper input handling",
+    "improper_input_handling",
+    "ai input validation"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-20",
+        "confidence": "high",
+        "note": "Improper Input Validation"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high",
+        "note": "Injection — improper input handling in AI systems"
+      }
+    ]
+  }
+}

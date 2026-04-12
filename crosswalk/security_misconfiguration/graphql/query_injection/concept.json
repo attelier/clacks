@@ -1,0 +1,25 @@
+{
+  "id": "clacks/security_misconfiguration/graphql/query_injection",
+  "slug": "clacks/security_misconfiguration/graphql/query_injection",
+  "title": "GraphQL Query Abuse",
+  "aliases": [
+    "graphql query injection",
+    "graphql abuse",
+    "graphql nested query attack"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-74",
+        "confidence": "medium",
+        "note": "No dedicated CWE for GraphQL query abuse"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ]
+  }
+}

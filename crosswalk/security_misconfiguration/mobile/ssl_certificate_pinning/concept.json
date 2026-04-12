@@ -1,0 +1,30 @@
+{
+  "id": "clacks/security_misconfiguration/mobile/ssl_certificate_pinning",
+  "slug": "clacks/security_misconfiguration/mobile/ssl_certificate_pinning",
+  "title": "SSL Certificate Pinning",
+  "aliases": [
+    "ssl certificate pinning",
+    "ssl_certificate_pinning",
+    "certificate pinning"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/mobile_security_misconfiguration.ssl_certificate_pinning",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A07",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-295",
+        "confidence": "high"
+      }
+    ]
+  }
+}

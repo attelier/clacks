@@ -1,0 +1,30 @@
+{
+  "id": "clacks/business_logic/email_verification_bypass",
+  "slug": "clacks/business_logic/email_verification_bypass",
+  "title": "Email Verification Bypass",
+  "aliases": [
+    "email verification bypass",
+    "email_verification_bypass",
+    "email confirmation bypass",
+    "unverified email"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-287",
+        "confidence": "medium",
+        "note": "Authentication bypass via verification skip"
+      },
+      {
+        "id": "cwe/CWE-863",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A07",
+        "confidence": "high"
+      }
+    ]
+  }
+}

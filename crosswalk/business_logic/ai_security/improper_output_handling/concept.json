@@ -1,0 +1,27 @@
+{
+  "id": "clacks/business_logic/ai_security/improper_output_handling",
+  "slug": "clacks/business_logic/ai_security/improper_output_handling",
+  "title": "Improper Output Handling",
+  "aliases": [
+    "improper output handling",
+    "improper_output_handling",
+    "ai output encoding",
+    "ai output sanitization"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-116",
+        "confidence": "high",
+        "note": "Improper Encoding or Escaping of Output"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high",
+        "note": "Injection — unsanitized AI outputs"
+      }
+    ]
+  }
+}

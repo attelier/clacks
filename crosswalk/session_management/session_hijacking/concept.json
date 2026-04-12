@@ -1,0 +1,39 @@
+{
+  "id": "clacks/session_management/session_hijacking",
+  "slug": "clacks/session_management/session_hijacking",
+  "title": "Session Hijacking",
+  "aliases": [
+    "session hijacking",
+    "session_hijacking",
+    "session theft",
+    "cookie theft",
+    "session token theft"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-384",
+        "confidence": "medium",
+        "note": "Session fixation is related but distinct"
+      },
+      {
+        "id": "cwe/CWE-200",
+        "confidence": "medium",
+        "note": "Session token exposure enables hijacking"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A07",
+        "confidence": "high"
+      }
+    ],
+    "mitre_attack": [
+      {
+        "id": "mitre/T1539",
+        "confidence": "high",
+        "note": "Steal Web Session Cookie"
+      }
+    ]
+  }
+}

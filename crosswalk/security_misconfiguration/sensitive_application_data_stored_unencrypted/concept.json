@@ -1,0 +1,24 @@
+{
+  "id": "clacks/security_misconfiguration/sensitive_application_data_stored_unencrypted",
+  "slug": "clacks/security_misconfiguration/sensitive_application_data_stored_unencrypted",
+  "title": "Sensitive Application Data Stored Unencrypted",
+  "aliases": [
+    "sensitive application data stored unencrypted",
+    "cleartext storage of sensitive information",
+    "unencrypted sensitive data"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-312",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A02",
+        "confidence": "high"
+      }
+    ]
+  }
+}

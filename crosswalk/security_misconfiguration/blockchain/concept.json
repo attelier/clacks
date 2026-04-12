@@ -1,0 +1,30 @@
+{
+  "id": "clacks/security_misconfiguration/blockchain",
+  "slug": "clacks/security_misconfiguration/blockchain",
+  "title": "Blockchain Security Misconfiguration",
+  "aliases": [
+    "blockchain security misconfiguration",
+    "blockchain_security_misconfiguration"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/blockchain_security_misconfiguration",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-693",
+        "confidence": "medium",
+        "note": "Umbrella for blockchain security issues"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "clacks/availability/redos",
+  "slug": "clacks/availability/redos",
+  "title": "Regular Expression Denial of Service (ReDoS)",
+  "aliases": [
+    "redos",
+    "regex dos",
+    "regular expression dos",
+    "catastrophic backtracking",
+    "evil regex",
+    "regex denial of service"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-1333",
+        "confidence": "high"
+      },
+      {
+        "id": "cwe/CWE-400",
+        "confidence": "medium",
+        "note": "General resource consumption umbrella"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ]
+  }
+}

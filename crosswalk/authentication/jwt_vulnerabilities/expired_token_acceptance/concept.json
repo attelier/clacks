@@ -1,0 +1,30 @@
+{
+  "id": "clacks/authentication/jwt_vulnerabilities/expired_token_acceptance",
+  "slug": "clacks/authentication/jwt_vulnerabilities/expired_token_acceptance",
+  "title": "Expired JWT Token Acceptance",
+  "aliases": [
+    "jwt expired token",
+    "jwt expiration bypass",
+    "expired jwt accepted",
+    "jwt exp bypass"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-613",
+        "confidence": "high"
+      },
+      {
+        "id": "cwe/CWE-345",
+        "confidence": "medium",
+        "note": "Failure to validate exp claim"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A07",
+        "confidence": "high"
+      }
+    ]
+  }
+}

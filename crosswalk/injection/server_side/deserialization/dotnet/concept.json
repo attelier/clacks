@@ -1,0 +1,26 @@
+{
+  "id": "clacks/injection/server_side/deserialization/dotnet",
+  "slug": "clacks/injection/server_side/deserialization/dotnet",
+  "title": ".NET Deserialization",
+  "aliases": [
+    "dotnet deserialization",
+    ".net deserialization",
+    "binaryformatter",
+    "viewstate deserialization",
+    "json.net typenamehandling"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-502",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A08",
+        "confidence": "high"
+      }
+    ]
+  }
+}

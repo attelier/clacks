@@ -1,0 +1,27 @@
+{
+  "id": "clacks/injection/server_side/ssrf/blind",
+  "slug": "clacks/injection/server_side/ssrf/blind",
+  "title": "Blind SSRF",
+  "aliases": [
+    "blind ssrf",
+    "blind_ssrf",
+    "out-of-band ssrf",
+    "oob ssrf",
+    "ssrf no response"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-918",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A10",
+        "confidence": "high",
+        "note": "SSRF is OWASP Top 10 2021 A10; blind variant confirmed via out-of-band only"
+      }
+    ]
+  }
+}

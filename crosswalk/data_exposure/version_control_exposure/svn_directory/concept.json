@@ -1,0 +1,25 @@
+{
+  "id": "clacks/data_exposure/version_control_exposure/svn_directory",
+  "slug": "clacks/data_exposure/version_control_exposure/svn_directory",
+  "title": "SVN Directory Exposure",
+  "aliases": [
+    ".svn exposure",
+    "svn directory",
+    "svn entries",
+    "subversion exposure"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-538",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ]
+  }
+}

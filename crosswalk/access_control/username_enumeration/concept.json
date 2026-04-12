@@ -1,0 +1,57 @@
+{
+  "id": "clacks/access_control/username_enumeration",
+  "slug": "clacks/access_control/username_enumeration",
+  "title": "Username Enumeration",
+  "aliases": [
+    "username enumeration",
+    "user enumeration",
+    "account enumeration",
+    "email enumeration",
+    "user existence disclosure"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-204",
+        "confidence": "high"
+      },
+      {
+        "id": "cwe/CWE-203",
+        "confidence": "medium",
+        "note": "Observable Discrepancy — parent of CWE-204; applies when enumeration relies on timing or other side channels rather than explicit message differences"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A07",
+        "confidence": "high",
+        "note": "Identification and Authentication Failures — username enumeration undermines authentication security"
+      },
+      {
+        "id": "owasp/top10/2021/A01",
+        "confidence": "low",
+        "note": "Broken Access Control — tangential; the system discloses information that should be access-controlled, but this is primarily an authentication/information-disclosure issue"
+      }
+    ],
+    "owasp_api10": [
+      {
+        "id": "owasp/api/2023/API02",
+        "confidence": "medium",
+        "note": "Broken Authentication — enumeration is a precursor to authentication attacks; OWASP API explicitly lists it under this category"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/broken_access_control.username_enumeration",
+        "confidence": "high"
+      }
+    ],
+    "mitre_attack": [
+      {
+        "id": "mitre/T1589.001",
+        "confidence": "medium",
+        "note": "Gather Victim Identity Information: Credentials — username enumeration is a reconnaissance technique for credential gathering"
+      }
+    ]
+  }
+}

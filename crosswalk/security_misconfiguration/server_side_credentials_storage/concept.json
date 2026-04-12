@@ -1,0 +1,28 @@
+{
+  "id": "clacks/security_misconfiguration/server_side_credentials_storage",
+  "slug": "clacks/security_misconfiguration/server_side_credentials_storage",
+  "title": "Insecure Server-Side Credential Storage",
+  "aliases": [
+    "server side credentials storage",
+    "plaintext password storage",
+    "insecure credential storage"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-256",
+        "confidence": "high"
+      },
+      {
+        "id": "cwe/CWE-916",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A02",
+        "confidence": "high"
+      }
+    ]
+  }
+}

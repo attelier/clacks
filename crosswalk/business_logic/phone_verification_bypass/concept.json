@@ -1,0 +1,30 @@
+{
+  "id": "clacks/business_logic/phone_verification_bypass",
+  "slug": "clacks/business_logic/phone_verification_bypass",
+  "title": "Phone Verification Bypass",
+  "aliases": [
+    "phone verification bypass",
+    "phone_verification_bypass",
+    "sms verification bypass",
+    "otp bypass",
+    "sms bypass"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-287",
+        "confidence": "medium"
+      },
+      {
+        "id": "cwe/CWE-863",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A07",
+        "confidence": "high"
+      }
+    ]
+  }
+}

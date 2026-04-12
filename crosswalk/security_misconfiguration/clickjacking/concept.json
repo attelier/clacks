@@ -1,0 +1,30 @@
+{
+  "id": "clacks/security_misconfiguration/clickjacking",
+  "slug": "clacks/security_misconfiguration/clickjacking",
+  "title": "Clickjacking",
+  "aliases": [
+    "clickjacking",
+    "ui redress",
+    "ui redressing"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-1021",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/clickjacking",
+        "confidence": "high"
+      }
+    ]
+  }
+}

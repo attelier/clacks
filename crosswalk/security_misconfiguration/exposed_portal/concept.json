@@ -1,0 +1,25 @@
+{
+  "id": "clacks/security_misconfiguration/exposed_portal",
+  "slug": "clacks/security_misconfiguration/exposed_portal",
+  "title": "Exposed Admin/Management Portal",
+  "aliases": [
+    "exposed portal",
+    "exposed admin portal",
+    "exposed management portal"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-200",
+        "confidence": "medium",
+        "note": "CWE-200 is a broad information exposure class; portal exposure is a specific case"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ]
+  }
+}
