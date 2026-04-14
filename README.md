@@ -63,6 +63,8 @@ A CLI tool that consumes the local Authority and Crosswalk data to allow analyst
 
 All queries are performed locally against the checked-out repository.
 
+Get it at https://github.com/attelier/clackscli
+
 ## Generated indexes
 
 Some folders contain generated index files used by the CLI to provide fast and deterministic lookups (for example, alias resolution).
